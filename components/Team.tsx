@@ -8,10 +8,10 @@ import Image from 'next/image';
 
 const Team = () => {
     return (
-        <section className='flex justify- items-center flex-col h-[80vh] bg-white mt-20'>
+        <section className='flex justify- items-center flex-col bg-white my-20'>
             <h1 className='text-[#0F2137] text-center font-[B612] text-[34px] not-italic font-bold leading-[50px]'>Meet our superheros</h1>
-            <p className='w-[527px] text-[#0F2137] text-center font-["DM_Sans"] text-[16px] not-italic font-normal leading-[30px] mt-8'>Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.</p>
-            <div className=' w-[70%] flex flex-row items-center justify-evenly gap-8 mt-20'>
+            <p className='w-[527px] sm:w-full sm:px-3 text-[#0F2137] text-center font-["DM_Sans"] text-[16px] not-italic font-normal leading-[30px] mt-8'>Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.</p>
+            <div className=' w-[70%] flex flex-row flex-wrap items-center justify-evenly gap-3 sm:gap-8 mt-20'>
                 <div className='flex flex-col items-start '>
                     <div className='relative rounded-[5px] bg-[#FFFAF6] mix-blend-darken flex-shrink-0 h-[300px] w-[300px]'>
                         <Image

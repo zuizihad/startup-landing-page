@@ -7,13 +7,13 @@ import image4 from '../assets/blogs/image4.png';
 
 const BlogPost = () => {
     return (
-        <section className='w-[60vw] m-auto bg-white mt-16'>
+        <section className='w-[60vw] sm:w-full m-auto bg-white mt-16'>
             <div className='flex flex-col justify-center items-center'>
-                <h1 className='text-[#0F2137] text-center font-[B612] text-[34px] not-italic font-bold leading-[50px]'>Popular blog post we update everyday</h1>
-                <p className='mt-3 w-[583px] text-[#0F2137] text-center font-["DM_Sans"] text-[16px] not-italic font-normal leading-[35px]'>Focus only on the meaning, we take care of the design. As soon as the
+                <h1 className='text-[#0F2137] text-center font-[B612] text-[34px] not-italic font-bold leading-[50px] sm:leading-10'>Popular blog post we update everyday</h1>
+                <p className='mt-3 w-[583px] sm:w-full sm:px-3 text-[#0F2137] text-center font-["DM_Sans"] text-[16px] not-italic font-normal leading-[35px] sm:leading-7'>Focus only on the meaning, we take care of the design. As soon as the
                     meeting end you can export in one click.</p>
             </div>
-            <div className='my-8 flex justify-between items-center'>
+            <div className='my-8 flex justify-between items-center sm:flex-col'>
                 <div className='flex justify-start items-center flex-col w-[350px]'>
                     <Image
                         src={image1}

@@ -7,8 +7,8 @@ import { FaFacebook, FaTwitter, FaGithub, FaDribbble } from "react-icons/fa";
 function Footer() {
     return (
         <section className='h-[30vh]  bg-white'>
-            <div className=' w-[1200px] py-12 m-auto flex justify-between items-center'>
-                <div>
+            <div className=' w-[1200px] sm:w-full py-12 m-auto flex justify-between items-center sm:flex-col sm:items-start sm:px-3'>
+                <div className='sm:pb-6'>
                     <div className='flex gap-2 w-[154px] h-[24px] justify-start items-center flex-shrink-0'>
                         <Image
                             src={logo}

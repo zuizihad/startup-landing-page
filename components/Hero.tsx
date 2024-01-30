@@ -5,10 +5,10 @@ import hero from '../assets/illustration.png'
 
 const Hero = () => {
     return (
-        <div className='h-[90vh] bg-white'>
+        <div className='h-[90vh] sm:h-full bg-white'>
             <Header />
             <div className="flex justify-center flex-col items-center mt-16">
-                <h1 className="w-[817px] text-[#02073E] text-center font-[B612] text-[48px] not-italic font-bold leading-[75px]">
+                <h1 className="w-[817px] text-[#02073E] text-center font-[B612] text-[48px] sm:text-[32px] sm:w-full not-italic font-bold leading-[75px] sm:leading-8">
                     Creativity starts with viewing the whole world differently</h1>
                 <p className='text-[#02073E] text-center font-["DM_Sans"] text-[18px] not-italic font-normal leading-[42px]'>A service agency with customer satisfaction</p>
                 <button className='mt-6 rounded-[5px] bg-[#0A8080] w-[180px] h-[60px] flex-shrink-0 text-[#FFF] text-center font-["DM_Sans"] text-[18px] not-italic font-bold leading-[40px]'>Get Started</button>

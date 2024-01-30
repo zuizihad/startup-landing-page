@@ -10,14 +10,14 @@ import Image from 'next/image';
 
 const OtherService = () => {
     return (
-        <section className='h-[80vh] bg-[#F9FAFC] pt-16'>
+        <section className=' bg-[#F9FAFC] pt-16'>
             <div className='flex justify-center items-center flex-col'>
-                <h1 className='text-[#0F2137] text-center font-[B612] text-[34px] not-italic font-bold leading-[50px]'>Other sevices you must appreciate</h1>
-                <p className='mt-4 w-[583px] text-[#0F2137] text-center font-["DM_Sans"] text-[16px] not-italic font-normal leading-[35px]'>Focus only on the meaning, we take care of the design. As soon as the
+                <h1 className='text-[#0F2137] text-center font-[B612] text-[34px] not-italic font-bold leading-[50px] sm:leading-10'>Other sevices you must appreciate</h1>
+                <p className='mt-4 w-[583px] sm:w-full sm:px-3 text-[#0F2137] text-center font-["DM_Sans"] text-[16px] not-italic font-normal leading-[35px] sm:leading-6'>Focus only on the meaning, we take care of the design. As soon as the
                     meeting end you can export in one click into your preferred.</p>
             </div>
-            <div className='flex flex-wrap items-center justify-evenly w-[70%] m-auto mt-16'>
-                <div className='flex justify-center items-start gap-8 mb-16'>
+            <div className='flex flex-wrap items-center justify-evenly w-[70%] sm:w-full m-auto mt-16'>
+                <div className='flex justify-center items-start sm:flex-col gap-8 mb-16'>
                     <div>
                         <Image
                             src={art}
@@ -37,7 +37,7 @@ const OtherService = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex justify-center items-start gap-8 mb-16'>
+                <div className='flex justify-center items-start sm:flex-col  gap-8 mb-16'>
                     <div>
                         <Image
                             src={digital}
@@ -57,7 +57,7 @@ const OtherService = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex justify-center items-start gap-8 mb-16'>
+                <div className='flex justify-center items-start sm:flex-col  gap-8 mb-16'>
                     <div>
                         <Image
                             src={enterprise}
@@ -77,7 +77,7 @@ const OtherService = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex justify-center items-start gap-8 mb-16'>
+                <div className='flex justify-center items-start sm:flex-col  gap-8 mb-16'>
                     <div>
                         <Image
                             src={marketing}
@@ -97,7 +97,7 @@ const OtherService = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex justify-center items-start gap-8 mb-16'>
+                <div className='flex justify-center items-start sm:flex-col  gap-8 mb-16'>
                     <div>
                         <Image
                             src={development}
@@ -117,7 +117,7 @@ const OtherService = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex justify-center items-start gap-8 mb-16'>
+                <div className='flex justify-center items-start sm:flex-col  gap-8 mb-16'>
                     <div>
                         <Image
                             src={suport}
